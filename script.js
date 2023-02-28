@@ -24,4 +24,4 @@ async function getAdvice() {
 // button.addEventListener("click", getAdvice);
 
 //classwork
-// setInterval(getAdvice, 4000);
+setInterval(getAdvice, 3000);
