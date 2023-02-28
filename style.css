@@ -16,7 +16,7 @@ body {
 
 main {
   width: 35%;
-  min-height: 15rem;
+  min-height: 12rem;
   padding: 2rem;
   background-color: hsl(217, 19%, 24%);
   display: flex;
@@ -64,7 +64,7 @@ main {
   height: 50px;
   border-radius: 50%;
   background-color: hsl(150, 100%, 66%);
-  bottom: -3rem;
+  bottom: -3.5rem;
   left: calc(50% - 25px);
   cursor: pointer;
 }
@@ -79,5 +79,8 @@ main {
 @media screen and (max-width: 375px) {
   main {
     width: 85%;
+  }
+  .advice__text {
+    font-size: 22px;
   }
 }
