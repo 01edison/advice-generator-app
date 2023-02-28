@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(218, 23%, 16%);
+}
+
+main {
+  width: 35%;
+  min-height: 15rem;
+  padding: 2rem;
+  background-color: hsl(217, 19%, 24%);
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.advice__heading {
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+  color: hsl(150, 100%, 66%);
+}
+
+.advice_text_container {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.quotes {
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+}
+
+.advice__text {
+  font-size: 25px;
+  font-family: "Manrope", sans-serif;
+  color: hsl(193, 38%, 86%);
+}
+
+.divider {
+  width: 100%;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  bottom: -3rem;
+  left: calc(50% - 25px);
+  cursor: pointer;
+}
+
+.button img {
+  width: 20px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+@media screen and (max-width: 375px) {
+  main {
+    width: 85%;
+  }
+}
